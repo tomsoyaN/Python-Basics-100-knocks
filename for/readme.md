@@ -105,16 +105,77 @@
       print(i,end="\n")
   ```
 
-16. 次のプログラムを実行した結果を予測し答えなさい
+17. 次のプログラムを実行した結果を予測し答えなさい
   ```python
     for i in range(10):
       print(i,end=" ")
       print('#'*10)
   ```
 
-16. 次のプログラムを実行した結果を予測し答えなさい
+18. 次のプログラムを実行した結果を予測し答えなさい
   ```python
     for i in range(10):
       print(i,end=" ")
     print('#'*10)
   ```
+
+19. 次のプログラムを実行した結果を予測し答えなさい
+  ```python
+    for i in range(5):
+      print('hello world!')
+  ```
+
+20. 次のプログラムを実行した結果を予測し答えなさい
+  ```python
+    for i in range(1:100:20):
+      print('hello world!')
+  ```
+
+21. 次のプログラムを実行した結果を予測し答えなさい
+  ```python
+    for i in range(3):
+      for j in range(3)
+        print('hello world!')
+  ```
+
+22. 次のプログラムを実行した結果を予測し答えなさい
+  ```python
+    for i in range(3):
+      for j in range(3)
+        print('hello world!')
+      print('#'*10)
+  ```
+
+23. 次のプログラムを実行した結果を予測し答えなさい
+  ```python
+    for i in range(3):
+      for j in range(3)
+        print('hello world!')
+    print('#'*10)
+  ```
+
+24. 次のプログラムを実行した結果を予測し答えなさい
+  ```python
+    for i in range(3):
+      for j in range(3)
+        print('hello world!')
+    print('#'*10)
+  ```
+
+25. 次のプログラムを実行した結果を予測し答えなさい
+  ```python
+    for i in range(1:26):
+      if(i % 5 != 0):
+        print(i,end=" ")
+      else:
+        print(i+' ')
+  ```
+
+26. 次のプログラムを実行した結果を予測し答えなさい
+  ```python
+    for i in range(5):
+      for j in range(1:6)
+        print(5*i+j,end=" ")
+      print()
+  ```
+

@@ -1,4 +1,4 @@
-# Python for文 基本文法 100本ノック
+# Python List文 基本文法 100本ノック
 
 
 ## 問題の解き方
@@ -100,7 +100,26 @@
 
 14. 次のプログラムを実行した結果を予測し答えなさい
   ```python
-    l=['2',5,'4',1,[1,2,'3']]
-    for i in l:
-      print(l)
+    l=[[1,2,3],[1,2,3]]
+    for i in range(2):
+      for j in range(3):
+        print(l[i][j])
+  ```
+
+15. 次のプログラムを実行した結果を予測し答えなさい
+  ```python
+    l=[[1,2],[3,4,5],[6,7,8,9]]
+    for i in range(len(l)):
+      for j in range(len(l[i])):
+        print(l[i][j])
+  ```
+
+
+16. 次のプログラムを実行した結果を予測し答えなさい
+  ```python
+    l=[[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]]]
+    for i in range(len(l)):
+      for j in range(len(l[i])):
+        for k in range(len(l[j])):
+          print(l[i][j][k])
   ```
